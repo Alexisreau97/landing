@@ -1,0 +1,28 @@
+@import url("components/header.css");
+@import url("components/about.css");
+@import url("components/features.css");
+@import url("components/tours.css");
+@import url("components/stories.css");
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	scroll-behavior: smooth;
+	font-family: "lato", sans-serif;
+	color: #777;
+	padding: 30px;
+}
+
+@media screen and (max-width: 768px) {
+	body {
+		padding: 0;
+	}
+}
+
+.container {
+	max-width: 900px;
+}
