@@ -13,12 +13,11 @@
 	box-sizing: border-box;
 }
 
-html, body {
+body {
 	scroll-behavior: smooth;
 	font-family: "lato", sans-serif;
 	color: #777;
 	padding: 30px;
-	overflow-x: hidden;
 }
 
 @media screen and (max-width: 768px) {
