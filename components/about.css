@@ -9,7 +9,7 @@
 	text-transform: uppercase;
 	font-weight: 700;
 	display: inline-block;
-	background-image: linear-gradient(to right, rgba(126, 213, 111), rgba(40, 180, 131));
+	background-image: linear-gradient(to right, rgba(41,152,255), rgba(86,67,250));
 	-webkit-background-clip: text;
 	background-clip: text;
 	color: transparent;
@@ -22,8 +22,8 @@
 
 .button-text:link,
 .button-text:visited {
-	border-bottom: 1px solid rgba(126, 213, 111);
-	color: rgba(126, 213, 111);
+	border-bottom: 1px solid rgba(41,152,255);
+	color: rgba(41,152,255);
 	display: inline-block;
 	text-decoration: none;
 	padding: 10px;
@@ -31,8 +31,8 @@
 }
 
 .button-text:hover {
-	background-color: rgba(126, 213, 111);
-	border-bottom: 1px solid rgba(126, 213, 111);
+	background-color: rgba(41,152,255);
+	border-bottom: 1px solid rgba(41,152,255);
 	color: #fff;
 	box-shadow: 0 10px 20px rgba(0, 0, 0, .2);
 	transform: translateY(-2px);

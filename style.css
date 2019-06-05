@@ -6,6 +6,7 @@
 @import url("components/stories.css");
 @import url("components/book.css");
 @import url("components/footer.css");
+@import url("components/popup.css");
 
 * {
 	margin: 0;

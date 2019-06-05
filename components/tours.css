@@ -49,7 +49,7 @@
 }
 
 .card-side-back-3 {
-	background-image: linear-gradient(to right bottom, #2998ff, #5643fa);
+	background-image: linear-gradient(to right bottom, rgba(41,152,255), rgba(86,67,250));
 }
 
 .card-picture {
@@ -157,10 +157,10 @@
 }
 
 .button-green, .button-green:hover {
-	background-image: linear-gradient(to right, rgba(126, 213, 111), rgba(40, 180, 131));
+	background-image: linear-gradient(to right, rgba(41,152,255), rgba(86,67,250));
 	color: #fff;
 }
 
 .button-green::after {
-	background-image: linear-gradient(to right, rgba(126, 213, 111), rgba(40, 180, 131));
+	background-image: linear-gradient(to right, rgba(41,152,255), rgba(86,67,250));
 }

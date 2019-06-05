@@ -1,6 +1,6 @@
 .section-book {
 	padding: 150px 0;
-	background-image: linear-gradient(to right bottom, rgba(126, 213, 111, 0.8), rgba(40, 180, 131, 0.8));
+	background-image: linear-gradient(to right bottom, rgba(41,152,255, .8), rgba(86,67,250, .8));
 }
 
 .book {
@@ -52,7 +52,7 @@
 .form-input:focus {
 	outline: none;
 	box-shadow: 0 10px 20px rgba(0, 0, 0, .1);
-	border-bottom: 3px solid rgba(126, 213, 111, 0.8);
+	border-bottom: 3px solid rgba(41,152,255, .8);
 }
 
 .form-input:focus:invalid {
@@ -89,7 +89,7 @@
 .form-radio-button {
 	height: 22px;
 	width: 22px;
-	border: 5px solid rgba(126, 213, 111, 0.8);
+	border: 5px solid rgba(41,152,255, .8);
 	border-radius: 50%;
 	display: inline-block;
 	position: absolute;
@@ -107,7 +107,7 @@
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%, -50%);
-	background-color: rgba(126, 213, 111, 0.8);
+	background-color: rgba(41,152,255, .8);
 	opacity: 0;
 	transition: all .2s;
 }

@@ -49,6 +49,6 @@ footer {
 
 .footer-link:hover,
 .footer-link:active {
-	color: rgba(126, 213, 111);
-	border-bottom: 2px solid rgba(126, 213, 111, 0.8);
+	color: rgba(41,152,255);
+	border-bottom: 2px solid rgba(41,152,255, .8);
 }
