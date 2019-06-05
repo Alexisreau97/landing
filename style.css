@@ -3,6 +3,7 @@
 @import url("components/features.css");
 @import url("components/tours.css");
 @import url("components/stories.css");
+@import url("components/book.css");
 
 * {
 	margin: 0;

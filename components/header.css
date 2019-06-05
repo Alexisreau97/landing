@@ -78,6 +78,7 @@
 	}
 }
 
+.button,
 .button:link,
 .button:visited {
 	text-transform: uppercase;
@@ -87,6 +88,7 @@
 	border-radius: 100px;
 	transition: all .2s;
 	position: relative;
+	border: none;
 }
 
 .button:hover {
@@ -94,7 +96,9 @@
 	box-shadow: 0 10px 20px rgba(0,0,0,.2)
 }
 
-.button:active {
+.button:active,
+.button:focus {
+	outline: none;
 	transform: translateY(-1px);
 	box-shadow: 0 5px 10px rgba(0,0,0,.2)
 }

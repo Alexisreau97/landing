@@ -1,0 +1,121 @@
+.section-book {
+	padding: 150px 0;
+	background-image: linear-gradient(to right bottom, rgba(126, 213, 111, 0.8), rgba(40, 180, 131, 0.8));
+}
+
+.book {
+	background-image: linear-gradient(105deg,
+		rgba(255, 255, 255, .9) 50%,
+		transparent 50%),
+	url(../img/nature9.jpg);
+	background-size: cover;
+	background-position: center;
+	border-radius: 5px;
+	box-shadow: 0 15px 40px rgba(0, 0, 0, .3);
+	
+	width: 100%;
+	height: 450px;
+}
+
+.book-form {
+	width: 50%;
+	padding: 60px;
+}
+
+.form {
+
+}
+
+.form-group {
+	margin-bottom: 12px;
+}
+
+.form-group:last-child {
+	margin-bottom: 0;
+}
+
+
+.form-input {
+	font-size: 15px;
+	font-family: inherit;
+	color: inherit;
+	padding: 10px 15px;
+	border-radius: 2px;
+	background-color: rgba(255, 255, 255, .5);
+	border: none;
+	border-bottom: 3px solid transparent;
+	width: 90%;
+	display: block;
+	transition: all .3s;
+}
+
+.form-input:focus {
+	outline: none;
+	box-shadow: 0 10px 20px rgba(0, 0, 0, .1);
+	border-bottom: 3px solid rgba(126, 213, 111, 0.8);
+}
+
+.form-input:focus:invalid {
+	border-bottom: 3px solid #ff7730;
+}
+
+.form-input:placeholder-shown + .form-label {
+	opacity: 0;
+	visibility: hidden;
+	transform: translateY(-10px);
+}
+
+.form-label {
+	font-size: 14px;
+	font-weight: 500;
+	margin-left: 15px;
+	margin-top: 5px;
+	display: block;
+	transition: all .3s;
+}
+
+.form-radio-group {
+	display: inline-block;
+}
+
+.form-radio-label {
+	font-size: 16px;
+	cursor: pointer;
+	position: relative;
+	margin-left: 30px;
+	margin-right: 10px;
+}
+
+.form-radio-button {
+	height: 22px;
+	width: 22px;
+	border: 5px solid rgba(126, 213, 111, 0.8);
+	border-radius: 50%;
+	display: inline-block;
+	position: absolute;
+	left: -28px;
+	top: 2px;
+}
+
+.form-radio-button::after {
+	content: "";
+	display: block;
+	height: 8px;
+	width: 8px;
+	border-radius: 50%;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	background-color: rgba(126, 213, 111, 0.8);
+	opacity: 0;
+	transition: all .2s;
+}
+
+.form-radio-input:checked ~ .form-radio-label .form-radio-button::after {
+	opacity: 1;
+}
+
+.form-radio-input {
+	display: none;
+}
