@@ -18,6 +18,7 @@ body {
 	font-family: "lato", sans-serif;
 	color: #777;
 	padding: 30px;
+	overflow-x: hidden;
 }
 
 @media screen and (max-width: 768px) {
