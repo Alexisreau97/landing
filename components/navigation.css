@@ -1,0 +1,101 @@
+.navigation-checkbox {
+	display: none;
+}
+
+.navigation-button {
+	background-color: #fff;
+	box-shadow: 0 10px 20px rgba(0, 0, 0, .1);
+	height: 70px;
+	width: 70px;
+	position: fixed;
+	top: 60px;
+	right: 60px;
+	border-radius: 50%;
+	z-index: 2000;
+}
+
+.navigation-button:hover {
+	cursor: pointer;
+}
+
+.navigation-button-img {
+	height: 30px;
+	width: 30px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	opacity: .6;
+}
+
+.navigation-checkbox:checked ~ .navigation-background {
+	transform: scale(80);
+}
+
+.navigation-checkbox:checked ~ .navigation-nav {
+	display: block;
+}
+
+.navigation-background {
+	height: 60px;
+	width: 60px;
+	border-radius: 50%;
+	position: fixed;
+	top: 65px;
+	right: 65px;
+	background: radial-gradient(rgba(126, 213, 111), rgba(40, 180, 131));
+	z-index: 1000;
+
+	transform: scale(0);
+	transition: all 1s;
+}
+
+.navigation-nav {
+	height: 100vh;
+	width: 100%;
+	position: fixed;
+	top: 0;
+	right: 0;
+	z-index: 1500;
+
+	display: none;
+	transition: all 1s;
+}
+
+.navigation-list {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	list-style: none;
+	text-align: center;
+}
+
+.navigation-item {
+	margin: 10px;
+}
+
+.navigation-link:link,
+.navigation-link:visited {
+	display: inline-block;
+	font-size: 30px;
+	font-weight: 300;
+	padding: 10px 20px;
+	color: #fff;
+	text-decoration: none;
+	text-transform: uppercase;
+	background-image: linear-gradient(120deg, transparent 50%, #fff 50%);
+	background-size: 230%;
+	transition: all .4s;
+}
+
+.navigation-link span {
+	margin-right: 15px;
+}
+
+.navigation-link:hover,
+.navigation-link:active {
+	background-position: 100%;
+	color: rgba(126, 213, 111);
+	transform: translateX(10px);
+}
