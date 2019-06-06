@@ -3,6 +3,12 @@
 	position: relative;
 }
 
+@media (max-width: 56.25em) {
+	.section-stories {
+		padding: 100px 0;
+	}
+}
+
 .bg-video {
 	position: absolute;
 	top: 0;
@@ -50,6 +56,27 @@
 
 .story-text {
 	transform: skewX(12deg);
+}
+
+@media (max-width: 56.25em) {
+	.story {
+		width: 90%;
+		padding: 10px 10px 10px 40px;
+	}
+}
+
+@media (max-width: 37.5em) {
+	.story {
+		transform: skewX(0);
+	}
+
+	.story-shape {
+		transform: translateX(-30px) skewX(0);
+	}
+
+	.story-text {
+		transform: skewX(0);
+	}
 }
 
 .story-caption {

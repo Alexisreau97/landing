@@ -21,12 +21,38 @@ body {
 	padding: 30px;
 }
 
-@media screen and (max-width: 768px) {
+.container {
+	max-width: 900px;
+}
+
+/*
+MEDIA QUERIES
+
+0 - 600px:		Phone
+600 - 900px: 	Tablet portrait
+900 - 1200px:	Tablet landscape
+1200 - 1800px:	Desktop
+1800 - ∞:		Big desktop
+
+1em = 16px
+*/
+
+@media (min-width: 112.5em) {
+	
+}
+
+@media (max-width: 75em) {
+	
+}
+
+@media (max-width: 56.25em) {
 	body {
 		padding: 0;
 	}
 }
 
-.container {
-	max-width: 900px;
+@media (max-width: 37.5em) {
+	body {
+		padding: 0;
+	}
 }

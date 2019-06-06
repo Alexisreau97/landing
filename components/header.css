@@ -9,14 +9,42 @@
 	background-size: cover;
 	background-position: top;
 	
-	-webkit-clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
+	-webkit-clip-path: polygon(0 0, 100% 0, 100% 80%, 0 100%);
 	clip-path: polygon(0 0, 100% 0, 100% 80%, 0 100%);
+}
+
+@media (max-width: 56.25em) {
+	.header {
+		-webkit-clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
+		clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
+	}
+}
+
+@media (max-width: 37.5em) {
+	.header {
+		-webkit-clip-path: polygon(0 0, 100% 0, 100% 90%, 0 100%);
+		clip-path: polygon(0 0, 100% 0, 100% 90%, 0 100%);
+	}
 }
 
 .logo-box {
 	position: absolute;
-	top: 50px;
-	left: 50px;
+	top: 70px;
+	left: 70px;
+}
+
+@media (max-width: 56.25em) {
+	.logo-box {
+		top: 50px;
+		left: 50px;
+	}
+}
+
+@media (max-width: 37.5em) {
+	.logo-box {
+		top: 40px;
+		left: 40px;
+	}
 }
 
 .logo {
@@ -25,7 +53,7 @@
 
 .text-box {
 	position: absolute;
-	top: 40%;
+	top: 50%;
 	left: 50%;
 	transform: translate(-50%, -50%);
 	text-align: center;
@@ -38,9 +66,9 @@
 
 .heading-primary-main {
 	display: block;
+	letter-spacing: 35px;
 	font-size: 60px;
 	font-weight: 400;
-	letter-spacing: 35px;
 	animation-name: moveInLeft;
 	animation-duration: 2s;
 	animation-timing-function: cubic-bezier(1,.05,.15,1);
@@ -48,10 +76,34 @@
 
 .heading-primary-sub {
 	display: block;
+	letter-spacing: 17.4px;
 	font-size: 20px;
 	font-weight: 700;
-	letter-spacing: 17.4px;
 	animation: moveInRight 2s cubic-bezier(1,.05,.15,1);
+}
+
+@media (max-width: 56.25em) {
+	.heading-primary-main {
+		letter-spacing: 20px;
+		font-size: 50px;
+	}
+
+	.heading-primary-sub {
+		letter-spacing: 13px;
+		font-size: 14px;
+	}
+}
+
+@media (max-width: 37.5em) {
+	.heading-primary-main {
+		letter-spacing: 10px;
+		font-size: 45px;
+	}
+
+	.heading-primary-sub {
+		letter-spacing: 8.5px;
+		font-size: 13px;
+	}
 }
 
 @keyframes moveInLeft {

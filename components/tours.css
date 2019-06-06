@@ -4,6 +4,12 @@
 	margin-top: -75px;
 }
 
+@media (max-width: 56.25em) {
+	.section-tours {
+		padding: 150px 0;
+	}
+}
+
 .tour-card {
 	perspective: 1500px;
 	position: relative;
@@ -163,4 +169,55 @@
 
 .button-green::after {
 	background-image: linear-gradient(to right, rgba(41,152,255), rgba(86,67,250));
+}
+
+
+
+
+
+
+
+@media (max-width: 56.25em) {
+	.tour-card {
+		height: auto;
+		background-color: #fff;
+		box-shadow: 0 15px 40px rgba(0, 0, 0, .15);
+	}
+
+	.tour-card:hover .card-side-front {
+		transform: rotateY(0);
+	}
+
+	.card-side {
+		border-radius: 5px 5px 0 0;
+		height: auto;
+		position: relative;
+		box-shadow: none;
+	}
+
+	.card-side-back {
+		transform: rotateY(0);
+		border-radius: 0 0 5px 5px;
+		-webkit-clip-path: polygon(0 15%, 100% 0, 100% 100%, 0 100%);
+		clip-path: polygon(0 15%, 100% 0, 100% 100%, 0 100%);
+	}
+
+	.card-cta {
+		position: relative;
+		top: 0;
+		left: 0;
+		transform: translate(0);
+		width: 100%;
+		padding: 40px;
+	}
+
+	.card-price-box {
+		text-align: center;
+		margin-bottom: 0;
+	}
+
+	.card-price-value {
+		font-size: 45px;
+		font-weight: 100;
+	}
 }

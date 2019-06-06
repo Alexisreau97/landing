@@ -13,8 +13,21 @@
 	margin-top: -75px;
 }
 
+@media (max-width: 56.25em) {
+	.section-features {
+		padding: 120px 0;
+		transform: skewY(-10deg);
+	}
+}
+
 .section-features > * {
 	transform: skewY(7deg);
+}
+
+@media (max-width: 56.25em) {
+	.section-features > * {
+		transform: skewY(10deg);
+	}
 }
 
 .feature-box {
