@@ -96,13 +96,13 @@
 
 @media (max-width: 37.5em) {
 	.heading-primary-main {
-		letter-spacing: 10px;
-		font-size: 45px;
+		letter-spacing: 8px;
+		font-size: 35px;
 	}
 
 	.heading-primary-sub {
-		letter-spacing: 8.5px;
-		font-size: 13px;
+		letter-spacing: 6px;
+		font-size: 11.5px;
 	}
 }
 

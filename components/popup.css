@@ -54,6 +54,36 @@
 	hyphens: auto;
 }
 
+@media (max-width: 56.25em) {
+	.popup-content {
+		width: 90%;
+	}
+
+	.popup-left {
+		width: 0;
+		display: none;
+	}
+
+	.popup-right {
+		width: 0;
+		display: 0;
+	}
+
+	.popup-img {
+		display: none;
+	}
+
+	.popup-text {
+		columns: none;
+		column-count: auto;
+		column-rule: none;
+	}
+}
+
+@media (max-width: 37.5em) {
+	
+}
+
 .popup:target {
 	opacity: 1;
 	visibility: visible;
